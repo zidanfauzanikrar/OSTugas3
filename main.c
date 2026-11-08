@@ -2,11 +2,8 @@
 
 #include "banner.h"
 #include "malloc_test.h"
+#include "mmap_test.h"
 #include "varian8.h"
-
-/* Kontrak untuk modul alokasi mmap milik Anggota 3 yang belum masuk repo.
- * Pindahkan deklarasi ini ke mmap_test.h saat header tersebut tersedia. */
-void run_mmap_test(void);
 
 int main(void)
 {
